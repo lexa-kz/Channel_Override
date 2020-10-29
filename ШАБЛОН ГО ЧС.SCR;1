@@ -1,0 +1,78 @@
+@UCS
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 21;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 301;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 352;                    ! Destination channel channel number
+}
+AT = 21-NOV-2018 12:00:00;                    ! Activation Time
+ET = 21-NOV-2018 12:03:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 610;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 22;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 352;                    ! Destination channel channel number
+}
+AT = 21-NOV-2018 12:00:00;                    ! Activation Time
+ET = 21-NOV-2018 12:03:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 610;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 23;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 307;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 352;                    ! Destination channel channel number
+}
+AT = 21-NOV-2018 12:00:00;                    ! Activation Time
+ET = 21-NOV-2018 12:03:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 610;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 24;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 309;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 352;                    ! Destination channel channel number
+}
+AT = 21-NOV-2018 12:00:00;                    ! Activation Time
+ET = 21-NOV-2018 12:03:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 610;                    ! Tier
+}
+

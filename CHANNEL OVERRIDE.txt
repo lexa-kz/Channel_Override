@@ -1,0 +1,45 @@
+
+telnet 172.31.176.4
+telnet 172.31.177.4
+
+
+login: ucsmanager
+password: gotalife
+
+
+
+ucs_bulktxt
+
+
+Log message contents (y or n)? y
+
+
+
+г============================================¬
+¦    !!!  И З М Е Н И Т Ь   Д А Т У  !!!   	                 ¦
+L============================================-
+
+sys$sysdevice:[dc2.ucs.bulk]1-AUG-2020.blk
+sys$sysdevice:[dc2.ucs.script]1-AUG-2020.scr
+
+
+Another file (y or n)? n
+
+
+
+ucs_offbulk
+
+
+File name (64 char max) :
+
+sys$sysdevice:[dc2.ucs.bulk]1-AUG-2020.blk
+
+Y
+
+
+- Проверить, лог-файл в директории [BULK].
+	Если он пустой (размер - 0 kB), значит, что все ОК!
+
+
+
+logout

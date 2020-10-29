@@ -1,0 +1,210 @@
+@UCS
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 0;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 331;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 341;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 16:00:00;                    ! Activation Time
+ET = DD-MMM-YYYY 16:20:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 211;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 1;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 331;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 343;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:00:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 213;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 2;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 302;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 303;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 3;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 326;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 301;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 4;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 327;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 304;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 5;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 329;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 306;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 6;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 355;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 311;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 7;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 360;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 302;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 8;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 389;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 300;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 9;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 403;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 17:15:00;                    ! Activation Time
+ET = DD-MMM-YYYY 18:00:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 312;                    ! Tier
+}
+
+CRC                    ! Create Retune/Channel Override Event
+{
+EVTNUM = 10;                    ! RCO Event Number
+CNCL = 0;                    ! Cancel event
+CHOVR
+{
+  ORGVCM = 311;                    ! Original channel VCM
+  ORGVCN = 303;                    ! Original channel channel number
+  DESTVCM = 311;                    ! Destination channel VCM
+  DESTVCN = 327;                    ! Destination channel channel number
+}
+AT = DD-MMM-YYYY 14:30:00;                    ! Activation Time
+ET = DD-MMM-YYYY 14:31:00;                    ! End Time
+ERR = 0x0;                    ! Error timeout
+GRPID = 0;                    ! Group ID
+AIUSE = 1;                    ! Addressing Info usage
+TIERS [0] = 1;                    ! Tier
+}
